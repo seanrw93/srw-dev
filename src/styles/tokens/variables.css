@@ -1,0 +1,24 @@
+:root {
+  /* Dark half — nav + hero */
+  --dark-bg:          #0e0c0a;
+  --dark-text:        #f5f0e8;
+  --dark-text-muted:  rgba(245, 240, 232, 0.45);
+
+  /* Light half — all content sections */
+  --light-bg:         #ffffff;
+  --light-text:       #1a1a1a;
+  --light-body:       #4a4a4a;
+  --light-muted:      #9a9489;
+  --card-bg:          #f5f2ee;
+  --card-border:      #e8e2d8;
+  --divider:          #e8e2d8;
+
+  /* Accent — carries through both halves */
+  --accent:           #c8b89a;
+  --accent-hover:     #b8a88a;
+
+  /* Geometry */
+  --nav-height: 64px;
+  --radius:     3px;
+  --max-w:      1240px;
+}

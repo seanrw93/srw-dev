@@ -1,0 +1,31 @@
+/* ══════════════════════════════════════════
+   PROCESS STEPS
+══════════════════════════════════════════ */
+.process-steps {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.process-pill {
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: var(--light-body);
+  background: var(--card-bg);
+  border: 1px solid var(--card-border);
+  border-radius: 20px;
+  padding: 6px 16px;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+.process-arrow {
+  color: var(--card-border);
+  font-size: 0.75rem;
+  flex-shrink: 0;
+}
+
+@media (max-width: 540px) {
+  .process-steps { flex-direction: column; gap: 6px; }
+  .process-arrow { transform: rotate(90deg); }
+}

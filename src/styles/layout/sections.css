@@ -1,0 +1,40 @@
+/* ══════════════════════════════════════════
+   CONTENT SECTIONS — all white
+══════════════════════════════════════════ */
+.section {
+  padding: 96px 5%;
+  background: var(--light-bg);
+  border-top: 1px solid var(--divider);
+}
+.section--dark { background: var(--light-bg); }
+.section--card { background: var(--light-bg); border-top: 1px solid var(--divider); }
+
+.section-inner {
+  max-width: var(--max-w);
+  margin: 0 auto;
+}
+
+.section-label {
+  display: block;
+  font-size: 0.66rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: var(--accent);
+  margin-bottom: 18px;
+}
+
+.section-title {
+  font-size: clamp(1.7rem, 3vw, 2.25rem);
+  letter-spacing: -0.025em;
+  color: var(--light-text);
+  margin-bottom: 14px;
+}
+
+.section-sub {
+  font-size: 0.975rem;
+  color: var(--light-body);
+  max-width: 500px;
+  line-height: 1.8;
+  margin-bottom: 52px;
+}

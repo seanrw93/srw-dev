@@ -1,0 +1,8 @@
+/* ══════════════════════════════════════════
+   REVEAL
+══════════════════════════════════════════ */
+.reveal {
+  opacity: 0;
+  transition: opacity 0.7s ease;
+}
+.reveal.revealed { opacity: 1; }

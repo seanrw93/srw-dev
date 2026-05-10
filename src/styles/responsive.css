@@ -1,0 +1,56 @@
+/* ══════════════════════════════════════════
+   RESPONSIVE
+══════════════════════════════════════════ */
+@media (max-width: 960px) {
+  .nav-links, .nav-badge, .nav-actions > .btn { display: none; }
+  .hamburger { display: flex; }
+
+  .services-grid { grid-template-columns: 1fr; }
+
+  .hero h1 { font-size: clamp(2.4rem, 8vw, 4rem); }
+
+  .about-inner { grid-template-columns: 1fr; gap: 48px; }
+
+  /* Global center — everything except the contact form and pricing feature lists */
+  body { text-align: center; }
+  .contact-form-wrap,
+  .contact-form-wrap *,
+  .pricing-features,
+  .pricing-features * { text-align: left; }
+
+  #services .process-steps { justify-content: center; }
+  .value-item { flex-direction: column; align-items: center; }
+  .value-icon { margin-top: 0; }
+
+  /* Buttons: full width and centered, except nav and pricing cards */
+  .btn:not(.nav-actions .btn):not(.pricing-card .btn) {
+    width: 100%;
+    justify-content: center;
+  }
+  .form-submit { width: 100%; }
+  .service-card--cta { align-items: center; }
+  .service-cta-btn { width: 100%; justify-content: center; }
+  .service-card-content { align-items: center; }
+  .service-link { justify-content: center; }
+}
+
+@media (max-width: 720px) {
+  .pricing-grid { grid-template-columns: 1fr; }
+  .pricing-card--popular { order: -1; }
+  .tjm-box { flex-direction: column; }
+  .contact-inner { grid-template-columns: 1fr; gap: 48px; }
+  .section { padding: 72px 5%; }
+}
+
+@media (max-width: 480px) {
+  .hero h1 { font-size: 2.1rem; }
+  .section { justify-content: center; }
+
+  /* Shrink hero orbs so they cannot push layout past the viewport edge */
+  .hero-orb--1 { width: 280px; height: 280px; }
+  .hero-orb--2 { width: 300px; height: 300px; }
+  .hero-orb--3 { width: 220px; height: 220px; }
+
+  /* Constrain nav-inner so logo + hamburger never overflow */
+  .nav-inner { gap: 0; }
+}

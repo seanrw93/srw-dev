@@ -1,0 +1,41 @@
+/* ══════════════════════════════════════════
+   BUTTONS
+══════════════════════════════════════════ */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: 'Inter', sans-serif;
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 11px 26px;
+  border-radius: var(--radius);
+  cursor: pointer;
+  text-decoration: none;
+  border: 1px solid transparent;
+  transition: color .2s, border-color .2s, background .2s;
+  white-space: nowrap;
+  background: transparent;
+}
+
+/* Dark backgrounds (nav, hero) */
+.btn-primary {
+  color: var(--dark-text);
+  border-color: rgba(200,184,154,.4);
+}
+.btn-primary:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+/* Light backgrounds (sections) */
+.btn-outline {
+  color: var(--light-text);
+  border-color: rgba(200,184,154,.55);
+}
+.btn-outline:hover {
+  color: var(--accent-hover);
+  border-color: var(--accent);
+}

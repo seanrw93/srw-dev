@@ -38,6 +38,11 @@
   display: block;
 }
 
+.about-card-wrap {
+  max-width: 400px;
+  width: 100%;
+}
+
 .about-card {
   background: var(--card-bg);
   border: 1px solid var(--card-border);

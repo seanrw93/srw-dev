@@ -40,7 +40,7 @@ export default function About() {
           </Reveal>
 
           {/* Right */}
-          <Reveal delay={30}>
+          <Reveal delay={30} className="about-card-wrap">
             <div className="about-card">
               <div className="about-card-name">Sean Roennau-Wergen</div>
               <div className="about-card-role">Développeur Web Freelance & Expert Optimisation Web</div>

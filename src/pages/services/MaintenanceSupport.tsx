@@ -1,8 +1,16 @@
+import { Helmet } from 'react-helmet-async'
 import Reveal from '../../components/ui/Reveal'
 
 export default function MaintenanceSupport() {
   return (
     <section className="section section--dark">
+      <Helmet>
+        <title>Maintenance & Support de Site Web Freelance | srwdev</title>
+        <meta name="description" content="Maintenance, mises à jour et support technique pour votre site web. Un interlocuteur unique, disponible sous 24h. Sans contrat long terme. Partout en France." />
+        <meta property="og:title" content="Maintenance & Support de Site Web Freelance | srw.dev" />
+        <meta property="og:description" content="Maintenance, mises à jour et support technique pour votre site web. Un interlocuteur unique, disponible sous 24h. Sans contrat long terme. Partout en France." />
+        <link rel="canonical" href="https://srwdev.fr/services/maintenance-support" />
+      </Helmet>
       <div className="section-inner">
         <div className="about-inner">
           <Reveal>

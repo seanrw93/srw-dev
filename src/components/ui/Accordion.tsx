@@ -1,21 +1,29 @@
-import { useState, useRef, useEffect, ReactNode } from 'react'
+import { useState, useRef, useEffect, ReactNode, Children, cloneElement, isValidElement } from 'react'
 
 interface AccordionProps {
   children: ReactNode
 }
 
 export function Accordion({ children }: AccordionProps) {
-  return <div className="accordion">{children}</div>
+  return (
+    <div className="accordion">
+      {Children.map(children, (child, i) =>
+        isValidElement(child) ? cloneElement(child as React.ReactElement<AccordionItemProps>, { _index: i }) : child
+      )}
+    </div>
+  )
 }
 
 interface AccordionItemProps {
-  question: string
+  question: ReactNode
   children: ReactNode
+  _index?: number
 }
 
-export function AccordionItem({ question, children }: AccordionItemProps) {
+export function AccordionItem({ question, children, _index = 0 }: AccordionItemProps) {
   const [open, setOpen] = useState(false)
   const contentRef = useRef<HTMLDivElement>(null)
+  const itemRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
     const el = contentRef.current
@@ -27,8 +35,23 @@ export function AccordionItem({ question, children }: AccordionItemProps) {
     }
   }, [open])
 
+  useEffect(() => {
+    const el = itemRef.current
+    if (!el) return
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (!entry.isIntersecting) return
+        observer.disconnect()
+        setTimeout(() => el.classList.add('accordion__item--visible'), _index * 80)
+      },
+      { threshold: 0.2 },
+    )
+    observer.observe(el)
+    return () => observer.disconnect()
+  }, [_index])
+
   return (
-    <div className="accordion__item">
+    <div ref={itemRef} className="accordion__item">
       <button
         className="accordion__trigger"
         aria-expanded={open}

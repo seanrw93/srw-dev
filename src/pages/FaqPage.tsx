@@ -1,3 +1,4 @@
+import { Helmet } from 'react-helmet-async'
 import { Accordion, AccordionItem } from '../components/ui/Accordion'
 
 const FAQ = [
@@ -26,6 +27,13 @@ const FAQ = [
 export default function FaqPage() {
   return (
     <section className="section section--dark">
+      <Helmet>
+        <title>Questions Fréquentes — Développeur Web Freelance | srwdev</title>
+        <meta name="description" content="Tarifs, délais, autonomie de gestion, accompagnement après livraison. Toutes les réponses aux questions courantes sur mes services de développement web freelance." />
+        <meta property="og:title" content="Questions Fréquentes — Développeur Web Freelance | srw.dev" />
+        <meta property="og:description" content="Tarifs, délais, autonomie de gestion, accompagnement après livraison. Toutes les réponses aux questions courantes sur mes services de développement web freelance." />
+        <link rel="canonical" href="https://srwdev.fr/faq" />
+      </Helmet>
       <div className="section-inner">
         <h1 className="section-title">Questions fréquentes</h1>
         <Accordion>

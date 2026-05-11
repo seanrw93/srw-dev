@@ -1,8 +1,16 @@
+import { Helmet } from 'react-helmet-async'
 import Reveal from '../../components/ui/Reveal'
 
 export default function PerformanceVitesse() {
   return (
     <section className="section section--dark">
+      <Helmet>
+        <title>Optimisation Performance & Vitesse de Site Web | srwdev</title>
+        <meta name="description" content="Audit et optimisation de la vitesse de votre site web. Amélioration des Core Web Vitals, score Lighthouse, et temps de chargement. Résultats mesurables et documentés." />
+        <meta property="og:title" content="Optimisation Performance & Vitesse de Site Web | srw.dev" />
+        <meta property="og:description" content="Audit et optimisation de la vitesse de votre site web. Amélioration des Core Web Vitals, score Lighthouse, et temps de chargement. Résultats mesurables et documentés." />
+        <link rel="canonical" href="https://srwdev.fr/services/performance-vitesse" />
+      </Helmet>
       <div className="section-inner">
         <div className="about-inner">
           <Reveal>

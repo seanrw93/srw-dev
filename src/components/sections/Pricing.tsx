@@ -65,7 +65,7 @@ export default function Pricing() {
           {PLANS.map(({ name, price, note, features, cta, popular }, i) => (
             <Reveal key={name} delay={i * 70}>
               <div className={`pricing-card${popular ? ' pricing-card--popular' : ''}`}>
-                {popular && <div className="popular-badge">⭐ Le plus populaire</div>}
+                {popular && <div className="popular-badge"><span aria-hidden="true">⭐</span> Le plus populaire</div>}
                 <h3 className="pricing-name">{name}</h3>
                 <div className="pricing-price">{price}</div>
                 <div className="pricing-note">{note}</div>

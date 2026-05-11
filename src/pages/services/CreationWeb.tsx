@@ -1,8 +1,17 @@
+import { Helmet } from 'react-helmet-async'
 import Reveal from '../../components/ui/Reveal'
+import TechSection from '../../components/ui/TechSection'
 
 export default function CreationWeb() {
   return (
     <section className="section section--dark">
+      <Helmet>
+        <title>Création de Sites Web Sur Mesure | srwdev</title>
+        <meta name="description" content="Conception et développement de sites web sur mesure en Île-de-France. Sites rapides, accessibles et optimisés pour convertir. Devis gratuit sous 24h." />
+        <meta property="og:title" content="Création de Sites Web Sur Mesure | srw.dev" />
+        <meta property="og:description" content="Conception et développement de sites web sur mesure en Île-de-France. Sites rapides, accessibles et optimisés pour convertir. Devis gratuit sous 24h." />
+        <link rel="canonical" href="https://srwdev.fr/services/creation-web" />
+      </Helmet>
       <div className="section-inner">
         <div className="about-inner">
           <Reveal>
@@ -31,6 +40,7 @@ export default function CreationWeb() {
             />
           </Reveal>
         </div>
+        <TechSection />
       </div>
     </section>
   )

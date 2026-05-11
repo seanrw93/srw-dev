@@ -1,8 +1,16 @@
+import { Helmet } from 'react-helmet-async'
 import Reveal from '../../components/ui/Reveal'
 
 export default function BoutiqueEnLigne() {
   return (
     <section className="section section--dark">
+      <Helmet>
+        <title>Création Boutique en Ligne WooCommerce & Shopify | srwdev</title>
+        <meta name="description" content="Création de boutiques en ligne performantes et faciles à gérer. Intégration WooCommerce et Shopify, tunnel d'achat optimisé, paiement sécurisé. Île-de-France." />
+        <meta property="og:title" content="Création Boutique en Ligne WooCommerce & Shopify | srw.dev" />
+        <meta property="og:description" content="Création de boutiques en ligne performantes et faciles à gérer. Intégration WooCommerce et Shopify, tunnel d'achat optimisé, paiement sécurisé. Île-de-France." />
+        <link rel="canonical" href="https://srwdev.fr/services/boutique-en-ligne" />
+      </Helmet>
       <div className="section-inner">
         <div className="about-inner">
           <Reveal>

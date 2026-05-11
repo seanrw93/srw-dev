@@ -1,8 +1,16 @@
+import { Helmet } from 'react-helmet-async'
 import Reveal from '../../components/ui/Reveal'
 
 export default function SeoTechnique() {
   return (
     <section className="section section--dark">
+      <Helmet>
+        <title>SEO Technique — Référencement Naturel Google | srwdev</title>
+        <meta name="description" content="Audit SEO technique, optimisation de l'indexation et du balisage sémantique pour améliorer votre positionnement Google. Intervention en Île-de-France et à distance." />
+        <meta property="og:title" content="SEO Technique — Référencement Naturel Google | srw.dev" />
+        <meta property="og:description" content="Audit SEO technique, optimisation de l'indexation et du balisage sémantique pour améliorer votre positionnement Google. Intervention en Île-de-France et à distance." />
+        <link rel="canonical" href="https://srwdev.fr/services/seo-technique" />
+      </Helmet>
       <div className="section-inner">
         <div className="about-inner">
           <Reveal>

@@ -1,3 +1,4 @@
+import PricingCard from '../ui/PricingCard'
 import Reveal from '../ui/Reveal'
 
 const PLANS = [
@@ -20,7 +21,7 @@ const PLANS = [
     price: 'dès 750€',
     note: 'Pour les PME qui veulent performer',
     features: [
-      "Jusqu’à 10 pages",
+      "Jusqu'à 10 pages",
       'Design sur-mesure',
       'Performance & Core Web Vitals',
       'SEO technique complet',
@@ -62,28 +63,18 @@ export default function Pricing() {
         </Reveal>
 
         <div className="pricing-grid">
-          {PLANS.map(({ name, price, note, features, cta, popular }, i) => (
-            <Reveal key={name} delay={i * 70}>
-              <div className={`pricing-card${popular ? ' pricing-card--popular' : ''}`}>
-                {popular && <div className="popular-badge"><span aria-hidden="true">⭐</span> Le plus populaire</div>}
-                <h3 className="pricing-name">{name}</h3>
-                <div className="pricing-price">{price}</div>
-                <div className="pricing-note">{note}</div>
-                <ul className="pricing-features">
-                  {features.map(f => <li key={f}>{f}</li>)}
-                </ul>
-                <a
-                  href="#contact"
-                  className="btn btn-outline"
-                  style={{ width: '100%', justifyContent: 'center' }}
-                >
-                  {cta}
-                </a>
-              </div>
+          {PLANS.map((plan, i) => (
+            <Reveal key={plan.name} delay={i * 70}>
+              <PricingCard {...plan} />
             </Reveal>
           ))}
         </div>
-        
+
+        <Reveal delay={210}>
+          <div className="pricing-footnote">
+            Chaque site livré peut être accompagné d'un suivi mensuel.
+          </div>
+        </Reveal>
       </div>
     </section>
   )

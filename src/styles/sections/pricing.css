@@ -6,6 +6,8 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 14px;
   margin-bottom: 20px;
+  justify-items: center;
+  align-items: center;
 }
 .pricing-card {
   background: var(--card-bg);
@@ -17,6 +19,9 @@
 .pricing-card--popular {
   background: var(--dark-bg);
   border-color: var(--dark-bg);
+}
+.pricing-card:not(.pricing-card--popular) {
+  align-self: center;
 }
 .pricing-card--popular .pricing-name,
 .pricing-card--popular .pricing-price,
@@ -72,15 +77,26 @@
   padding: 8px 0;
   border-bottom: 1px solid var(--card-border);
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 10px;
 }
-.pricing-features li::before {
-  content: '—';
-  color: var(--accent);
+.pricing-check {
+  color: #4ade80;
+  font-size: 1rem;
   flex-shrink: 0;
-  font-size: 0.8rem;
+  overflow: visible;
+  display: block;
 }
+.pricing-footnote {
+  margin-top: 40px;
+  padding: 14px 20px;
+  border-left: 3px solid var(--accent);
+  background: rgba(200, 184, 154, 0.05);
+  font-size: 0.83rem;
+  color: var(--light-muted);
+  font-style: italic;
+}
+
 .tjm-box {
   background: var(--card-bg);
   border: 1px solid var(--card-border);

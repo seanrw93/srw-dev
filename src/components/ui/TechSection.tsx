@@ -11,12 +11,13 @@ export const TECHS = [
   { name: 'Figma',        logo: '/images/tech/figma.svg',      alt: 'Figma logo',        desc: 'Avant d\'écrire une ligne de code, vous voyez exactement ce que vous allez recevoir. Les maquettes interactives permettent de valider le design ensemble et d\'éviter les allers-retours coûteux.' },
   { name: 'WordPress',    logo: '/images/tech/wordpress.svg',  alt: 'WordPress logo',    desc: 'La solution idéale si vous voulez gérer votre contenu en autonomie. Publiez des articles, mettez à jour vos pages, et gérez votre boutique WooCommerce ou Shopify sans toucher au code.' },
   { name: 'Vercel',       logo: '/images/tech/vercel.svg',     alt: 'Vercel logo',       desc: 'Votre site en ligne en quelques secondes, partout dans le monde. Vercel assure des temps de chargement ultra-rapides grâce à un réseau de diffusion global, avec déploiements automatiques à chaque mise à jour.' },
+  { name: 'GitHub',       logo: '/images/tech/github.svg',     alt: 'GitHub logo',       desc: 'Votre projet vit sur GitHub : vous pouvez suivre l\'avancement en temps réel, voir chaque modification apportée, et collaborer sans friction. Rien n\'est jamais perdu, tout est traçable.' },
   { name: 'Express',      logo: '/images/tech/express.svg',    alt: 'Express logo',      desc: 'La colonne vertébrale des projets nécessitant une logique serveur sur mesure : formulaires avancés, authentification, connexion à une base de données, ou intégration d\'APIs tierces.' },
   { name: 'HTML',         logo: '/images/tech/html.svg',       alt: 'HTML logo',         desc: 'La fondation de chaque page web. Un HTML bien structuré améliore l\'accessibilité pour tous les utilisateurs et envoie les bons signaux aux moteurs de recherche pour un meilleur référencement.' },
   { name: 'CSS',          logo: '/images/tech/css.svg',        alt: 'CSS logo',          desc: 'Ce qui transforme une structure brute en expérience visuelle. Animations fluides, mise en page responsive, identité graphique fidèle : tout ce que l\'utilisateur voit et ressent passe par le CSS.' },
 ]
 
-const MOBILE_ORDER = ['Figma', 'WordPress', 'React', 'Next.js', 'Tailwind CSS', 'TypeScript', 'HTML', 'CSS', 'Vercel', 'Express']
+const MOBILE_ORDER = ['Figma', 'WordPress', 'React', 'Next.js', 'Tailwind CSS', 'TypeScript', 'HTML', 'CSS', 'Vercel', 'GitHub', 'Express']
 const TECHS_MOBILE = MOBILE_ORDER.map(name => TECHS.find(t => t.name === name)!)
 
 // Duration of the flex collapse CSS transition (must match CSS)

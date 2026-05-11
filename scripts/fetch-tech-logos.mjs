@@ -15,6 +15,7 @@ const LOGOS = [
   { url: 'https://cdn.simpleicons.org/express',     file: 'express.svg',     color: '#1a1a1a', name: 'Express' },
   { url: 'https://cdn.simpleicons.org/html5',       file: 'html.svg',        color: '#E34F26', name: 'HTML' },
   { url: 'https://cdn.simpleicons.org/css',         file: 'css.svg',         color: '#1572B6', name: 'CSS' },
+  { url: 'https://cdn.simpleicons.org/github',      file: 'github.svg',      color: '#1a1a1a', name: 'GitHub' },
 ]
 
 const VERCEL_SVG = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">

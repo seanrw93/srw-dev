@@ -1,5 +1,6 @@
 import { Helmet } from 'react-helmet-async'
 import Reveal from '../../components/ui/Reveal'
+import PlatformCards from '../../components/ui/PlatformCards'
 
 export default function BoutiqueEnLigne() {
   return (
@@ -39,6 +40,7 @@ export default function BoutiqueEnLigne() {
             />
           </Reveal>
         </div>
+        <PlatformCards />
       </div>
     </section>
   )

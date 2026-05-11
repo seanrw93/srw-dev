@@ -4,9 +4,10 @@ interface RevealProps {
   children: ReactNode
   delay?: number
   className?: string
+  threshold?: number
 }
 
-export default function Reveal({ children, delay = 0, className = '' }: RevealProps) {
+export default function Reveal({ children, delay = 0, className = '', threshold = 0.08 }: RevealProps) {
   const ref = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
@@ -19,7 +20,7 @@ export default function Reveal({ children, delay = 0, className = '' }: RevealPr
           observer.disconnect()
         }
       },
-      { threshold: 0.08 },
+      { threshold },
     )
     observer.observe(el)
     return () => observer.disconnect()

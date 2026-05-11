@@ -11,6 +11,7 @@
 @import './components/process-steps.css';
 @import './components/accordion.css';
 @import './components/tech-orbit.css';
+@import './components/platform-cards.css';
 
 /* Layout chrome */
 @import './layout/nav.css';

@@ -1,0 +1,19 @@
+.toggle-icon {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.toggle-icon svg {
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.toggle-icon--open svg { transform: rotate(180deg); }
+.toggle-icon__v {
+  transform-origin: center;
+  transform-box: fill-box;
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.4s ease;
+}
+.toggle-icon--open .toggle-icon__v {
+  transform: scaleY(0);
+  opacity: 0;
+}

@@ -24,10 +24,10 @@ export default function HomePage() {
   return (
     <main>
       <Helmet>
-        <title>Développeur Web Freelance Île-de-France | srwdev</title>
-        <meta name="description" content="Création de sites web sur mesure, SEO technique et boutiques en ligne. Développeur web freelance basé à Puteaux, disponible partout en France. Devis gratuit." />
-        <meta property="og:title" content="Développeur Web Freelance Île-de-France | srw.dev" />
-        <meta property="og:description" content="Création de sites web sur mesure, SEO technique et boutiques en ligne. Développeur web freelance basé à Puteaux, disponible partout en France. Devis gratuit." />
+        <title>Création de Sites Web pour Petites Entreprises | srw-dev — Puteaux, Paris</title>
+        <meta name="description" content="Vous avez besoin d'un site web professionnel pour votre petite entreprise ? Je crée des sites rapides, modernes et faciles à gérer — vitrine ou boutique en ligne. Basé à Puteaux, disponible partout en France." />
+        <meta property="og:title" content="srw-dev — Création de Sites Web pour Petites Entreprises" />
+        <meta property="og:description" content="Site vitrine ou boutique en ligne — je crée votre présence web professionnelle, rapide et facile à gérer. Basé à Puteaux, disponible partout en France." />
         <link rel="canonical" href="https://srwdev.fr/" />
       </Helmet>
       <Hero />

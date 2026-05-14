@@ -5,10 +5,10 @@ export default function MaintenanceSupport() {
   return (
     <section className="section section--dark">
       <Helmet>
-        <title>Maintenance & Support de Site Web Freelance | srwdev</title>
-        <meta name="description" content="Maintenance, mises à jour et support technique pour votre site web. Un interlocuteur unique, disponible sous 24h. Sans contrat long terme. Partout en France." />
-        <meta property="og:title" content="Maintenance & Support de Site Web Freelance | srw.dev" />
-        <meta property="og:description" content="Maintenance, mises à jour et support technique pour votre site web. Un interlocuteur unique, disponible sous 24h. Sans contrat long terme. Partout en France." />
+        <title>Suivi & Mise à Jour de Site Web après Livraison | srwdev</title>
+        <meta name="description" content="Votre site web évolue avec votre entreprise. Je m'occupe des mises à jour, des modifications de contenu et du support technique — disponible sous 24h, sans contrat long terme." />
+        <meta property="og:title" content="srw-dev — Suivi de Site Web pour que votre Présence Reste à Jour" />
+        <meta property="og:description" content="Votre site web évolue avec votre entreprise. Je m'occupe des mises à jour, des modifications de contenu et du support technique — disponible sous 24h, sans contrat long terme." />
         <link rel="canonical" href="https://srwdev.fr/services/maintenance-support" />
       </Helmet>
       <div className="section-inner">

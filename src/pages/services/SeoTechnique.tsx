@@ -5,10 +5,10 @@ export default function SeoTechnique() {
   return (
     <section className="section section--dark">
       <Helmet>
-        <title>SEO Technique — Référencement Naturel Google | srwdev</title>
-        <meta name="description" content="Audit SEO technique, optimisation de l'indexation et du balisage sémantique pour améliorer votre positionnement Google. Intervention en Île-de-France et à distance." />
-        <meta property="og:title" content="SEO Technique — Référencement Naturel Google | srw.dev" />
-        <meta property="og:description" content="Audit SEO technique, optimisation de l'indexation et du balisage sémantique pour améliorer votre positionnement Google. Intervention en Île-de-France et à distance." />
+        <title>Être Trouvé sur Google — Référencement pour Petites Entreprises | srwdev</title>
+        <meta name="description" content="Vos clients vous cherchent sur Google mais ne vous trouvent pas ? J'optimise votre site pour qu'il remonte dans les résultats et attire plus de clients. Sans jargon, avec des résultats concrets." />
+        <meta property="og:title" content="srw-dev — Être Trouvé sur Google par vos Clients" />
+        <meta property="og:description" content="Vos clients vous cherchent sur Google mais ne vous trouvent pas ? J'optimise votre site pour qu'il remonte dans les résultats et attire plus de clients. Sans jargon, avec des résultats concrets." />
         <link rel="canonical" href="https://srwdev.fr/services/seo-technique" />
       </Helmet>
       <div className="section-inner">

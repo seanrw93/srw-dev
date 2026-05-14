@@ -87,6 +87,89 @@
   overflow: visible;
   display: block;
 }
+/* ── Options complémentaires ── */
+.pricing-extras {
+  margin-top: 24px;
+  border: 1px solid var(--card-border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.pricing-extras__toggle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 16px 24px;
+  background: var(--card-bg);
+  border: none;
+  cursor: pointer;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--light-text);
+  text-align: left;
+}
+.pricing-extras__toggle:hover { background: var(--card-border); }
+.pricing-extras__body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s ease;
+}
+.pricing-extras__inner {
+  padding: 8px 24px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.pricing-extras__group { display: flex; flex-direction: column; gap: 0; }
+.pricing-extras__heading {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--light-muted);
+  padding: 14px 0 8px;
+  border-bottom: 1px solid var(--card-border);
+  margin-bottom: 4px;
+}
+.pricing-extras__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--card-border);
+  font-size: 0.83rem;
+}
+.pricing-extras__row:last-child { border-bottom: none; }
+.pricing-extras__label {
+  color: var(--light-body);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.pricing-extras__badge {
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--dark-bg);
+  background: var(--accent);
+  padding: 2px 7px;
+  border-radius: 2px;
+  white-space: nowrap;
+}
+.pricing-extras__price {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 600;
+  font-size: 0.83rem;
+  color: var(--light-text);
+  white-space: nowrap;
+}
+
 .pricing-footnote {
   margin-top: 40px;
   padding: 14px 20px;

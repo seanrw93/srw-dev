@@ -1,17 +1,18 @@
+import PricingAccordion from '../ui/PricingAccordion'
 import PricingCard from '../ui/PricingCard'
 import Reveal from '../ui/Reveal'
 
 const PLANS = [
   {
-    name: 'Site Starter',
+    name: 'Site Vitrine',
     price: 'dès 350€',
-    note: 'Idéal pour démarrer en ligne rapidement',
+    note: 'Pour les artisans, freelances et petits commerces qui veulent exister en ligne',
     features: [
-      'Site one-page ou 3–5 pages',
-      'Design responsive mobile-first',
-      'Formulaire de contact intégré',
-      'SEO de base',
-      'Livraison sous 7 jours',
+      '1 à 5 pages (accueil, services, contact…)',
+      'Design moderne adapté mobile et ordinateur',
+      'Formulaire de contact directement dans votre boîte mail',
+      'Visible sur Google dès la mise en ligne',
+      'Livraison en 7 jours',
     ],
     cta: 'Démarrer',
     popular: false,
@@ -19,30 +20,30 @@ const PLANS = [
   {
     name: 'Site Professionnel',
     price: 'dès 750€',
-    note: 'Pour les PME qui veulent performer',
+    note: 'Pour les petites entreprises qui veulent attirer plus de clients en ligne',
     features: [
-      "Jusqu'à 10 pages",
-      'Design sur-mesure',
-      'Performance & Core Web Vitals',
-      'SEO technique complet',
-      'Accessibilité WCAG AA',
-      'Livraison sous 14 jours',
+      "Jusqu'à 10 pages personnalisées",
+      'Design sur-mesure à votre image',
+      'Chargement rapide pour ne perdre aucun visiteur',
+      'Bien positionné sur Google (SEO inclus)',
+      'Facile à mettre à jour vous-même',
+      'Livraison en 14 jours',
     ],
     cta: 'Travailler avec moi',
     popular: true,
   },
   {
-    name: 'Performance Boost',
-    price: '250€',
-    note: 'Audit + optimisation de votre site existant',
+    name: 'Refonte & Optimisation',
+    price: 'dès 250€',
+    note: 'Votre site existe déjà mais il est lent, vieillissant ou invisible sur Google',
     features: [
-      'Audit Lighthouse complet',
-      'Optimisation images & ressources',
-      'Amélioration Core Web Vitals',
-      'Rapport détaillé remis',
-      'Livraison sous 5 jours',
+      'Diagnostic complet de votre site actuel',
+      'Site rendu 2x plus rapide',
+      'Meilleure visibilité sur Google',
+      'Rapport clair avec les problèmes corrigés',
+      'Livraison en 5 jours',
     ],
-    cta: 'Booster mon site',
+    cta: 'Améliorer mon site',
     popular: false,
   },
 ]
@@ -71,6 +72,10 @@ export default function Pricing() {
         </div>
 
         <Reveal delay={210}>
+          <PricingAccordion />
+        </Reveal>
+
+        <Reveal delay={280}>
           <div className="pricing-footnote">
             Chaque site livré peut être accompagné d'un suivi mensuel.
           </div>

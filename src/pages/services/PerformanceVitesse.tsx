@@ -5,10 +5,10 @@ export default function PerformanceVitesse() {
   return (
     <section className="section section--dark">
       <Helmet>
-        <title>Optimisation Performance & Vitesse de Site Web | srwdev</title>
-        <meta name="description" content="Audit et optimisation de la vitesse de votre site web. Amélioration des Core Web Vitals, score Lighthouse, et temps de chargement. Résultats mesurables et documentés." />
-        <meta property="og:title" content="Optimisation Performance & Vitesse de Site Web | srw.dev" />
-        <meta property="og:description" content="Audit et optimisation de la vitesse de votre site web. Amélioration des Core Web Vitals, score Lighthouse, et temps de chargement. Résultats mesurables et documentés." />
+        <title>Site Web Rapide & Visible sur Google | srwdev</title>
+        <meta name="description" content="Un site lent fait fuir vos clients et nuit à votre position sur Google. J'optimise la vitesse de votre site pour que vous soyez mieux référencé et que vos visiteurs restent. Résultats mesurables." />
+        <meta property="og:title" content="srw-dev — Site Web Rapide & Visible sur Google" />
+        <meta property="og:description" content="Un site lent fait fuir vos clients et nuit à votre position sur Google. J'optimise la vitesse de votre site pour que vous soyez mieux référencé et que vos visiteurs restent. Résultats mesurables." />
         <link rel="canonical" href="https://srwdev.fr/services/performance-vitesse" />
       </Helmet>
       <div className="section-inner">
@@ -21,7 +21,7 @@ export default function PerformanceVitesse() {
                 Google pénalise les sites lents dans ses résultats de recherche, et les utilisateurs abandonnent une page qui met plus de trois secondes à charger. J'audite votre site en profondeur avec Lighthouse et WebPageTest pour identifier précisément ce qui ralentit votre expérience utilisateur et nuit à votre référencement.
               </p>
               <p className="about-body">
-                L'optimisation couvre l'ensemble de la chaîne technique : compression et conversion des images au format WebP, mise en cache intelligente, réduction du JavaScript inutile, chargement différé des ressources non critiques, et amélioration des Core Web Vitals pour satisfaire les critères de Google.
+                L'optimisation couvre l'ensemble de la chaîne : compression et conversion des images, mise en cache intelligente, suppression du code inutile, chargement différé des ressources non critiques — pour que votre site soit rapide dès la première visite et bien positionné sur Google.
               </p>
               <p className="about-body">
                 À la fin de l'intervention, vous recevez un rapport détaillé avec les actions effectuées, les scores Lighthouse avant et après, et les recommandations pour maintenir ces performances dans la durée. Les résultats sont mesurables, documentés, et durables.

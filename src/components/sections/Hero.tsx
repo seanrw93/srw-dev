@@ -12,12 +12,11 @@ export default function Hero() {
             Disponible pour missions · Île-de-France & Remote
           </span>
           <h1>
-            Votre problème web<br />
-            a une solution.<br />
-            <em>Je la construis.</em>
+            Votre présence en ligne,<br />
+            <em>sans complications.</em>
           </h1>
           <p className="hero-subtitle">
-            Développeur web freelance spécialisé en React, Next.js et optimisation de performance.
+            Sites vitrines et boutiques en ligne pour petites entreprises. Rapide, professionnel, facile à gérer.
           </p>
           <div className="hero-ctas">
             <a href="#contact" className="btn btn-primary">

@@ -6,10 +6,10 @@ export default function BoutiqueEnLigne() {
   return (
     <section className="section section--dark">
       <Helmet>
-        <title>Création Boutique en Ligne WooCommerce & Shopify | srwdev</title>
-        <meta name="description" content="Création de boutiques en ligne performantes et faciles à gérer. Intégration WooCommerce et Shopify, tunnel d'achat optimisé, paiement sécurisé. Île-de-France." />
-        <meta property="og:title" content="Création Boutique en Ligne WooCommerce & Shopify | srw.dev" />
-        <meta property="og:description" content="Création de boutiques en ligne performantes et faciles à gérer. Intégration WooCommerce et Shopify, tunnel d'achat optimisé, paiement sécurisé. Île-de-France." />
+        <title>Vendre en Ligne — Boutique Web pour Petite Entreprise | srwdev</title>
+        <meta name="description" content="Vous voulez vendre vos produits en ligne ? Je crée votre boutique web facile à gérer, avec paiement sécurisé et un tunnel d'achat optimisé pour convertir vos visiteurs en clients." />
+        <meta property="og:title" content="srw-dev — Votre Boutique en Ligne, Simple à Gérer" />
+        <meta property="og:description" content="Vous voulez vendre vos produits en ligne ? Je crée votre boutique web facile à gérer, avec paiement sécurisé et un tunnel d'achat optimisé pour convertir vos visiteurs en clients." />
         <link rel="canonical" href="https://srwdev.fr/services/boutique-en-ligne" />
       </Helmet>
       <div className="section-inner">

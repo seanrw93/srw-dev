@@ -18,7 +18,9 @@ export default function PricingCard({ name, price, note, features, cta, popular 
         </div>
       )}
       <h3 className="pricing-name">{name}</h3>
-      <div className="pricing-price">{price}</div>
+      <div className="pricing-price-wrap">
+        <div className="pricing-price">{price}</div>
+      </div>
       <div className="pricing-note">{note}</div>
       <ul className="pricing-features">
         {features.map(f => (

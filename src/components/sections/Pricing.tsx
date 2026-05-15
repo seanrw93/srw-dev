@@ -5,7 +5,7 @@ import Reveal from '../ui/Reveal'
 const PLANS = [
   {
     name: 'Site Vitrine',
-    price: 'dès 350€',
+    price: 'dès 499€',
     note: 'Pour les artisans, freelances et petits commerces qui veulent exister en ligne',
     features: [
       '1 à 5 pages (accueil, services, contact…)',
@@ -19,7 +19,7 @@ const PLANS = [
   },
   {
     name: 'Site Professionnel',
-    price: 'dès 750€',
+    price: 'dès 849€',
     note: 'Pour les petites entreprises qui veulent attirer plus de clients en ligne',
     features: [
       "Jusqu'à 10 pages personnalisées",
@@ -34,7 +34,7 @@ const PLANS = [
   },
   {
     name: 'Refonte & Optimisation',
-    price: 'dès 250€',
+    price: 'dès 299€',
     note: 'Votre site existe déjà mais il est lent, vieillissant ou invisible sur Google',
     features: [
       'Diagnostic complet de votre site actuel',
@@ -75,11 +75,6 @@ export default function Pricing() {
           <PricingAccordion />
         </Reveal>
 
-        <Reveal delay={280}>
-          <div className="pricing-footnote">
-            Chaque site livré peut être accompagné d'un suivi mensuel.
-          </div>
-        </Reveal>
       </div>
     </section>
   )

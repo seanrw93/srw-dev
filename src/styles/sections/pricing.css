@@ -174,7 +174,7 @@
 }
 .pricing-extras__row {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
   gap: 16px;
   padding: 10px 0;
@@ -186,6 +186,7 @@
   color: var(--light-body);
   display: flex;
   align-items: center;
+  text-align: start;
   gap: 8px;
   flex-wrap: wrap;
 }

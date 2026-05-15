@@ -20,7 +20,9 @@
   .contact-form-wrap,
   .contact-form-wrap *,
   .pricing-features,
-  .pricing-features * { text-align: left; }
+  .pricing-features *,
+  .case-card,
+  .case-card * { text-align: left; }
 
   #services .process-steps { justify-content: center; }
   .value-item { flex-direction: column; align-items: center; }

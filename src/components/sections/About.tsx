@@ -1,14 +1,5 @@
 import Reveal from '../ui/Reveal'
 
-const STATS = [
-  { num: '+25pts', label: 'Performance gagnée en moyenne par site optimisé' },
-  { num: '1.8s', label: 'Temps de chargement moyen livré' },
-  { num: '100%', label: 'Projets livrés dans les délais' },
-  { num: '24h', label: 'Délai de réponse garanti' },
-]
-
-const PILLS = ['React', 'Next.js', 'TypeScript', 'Lighthouse', 'WCAG AA', 'Figma']
-
 const BODY = [
   "Avant de coder, j'enseignais l'anglais. Ce parcours m'a appris quelque chose que beaucoup de développeurs n'ont pas : écouter, expliquer clairement, et adapter mon langage à mon interlocuteur, pas l'inverse.",
   "Quand vous me parlez de votre projet, vous n'avez pas besoin de connaître les termes techniques. Mon travail c'est de comprendre ce que vous voulez accomplir, et de trouver la meilleure façon de le construire.",
@@ -40,23 +31,18 @@ export default function About() {
           </Reveal>
 
           {/* Right */}
-          <Reveal delay={30} className="about-card-wrap">
-            <div className="about-card">
-              <div className="about-card-name">Sean Roennau-Wergen</div>
-              <div className="about-card-role">Développeur Web Freelance & Expert Optimisation Web</div>
-              <div className="pills">
-                {PILLS.map(p => <span key={p} className="pill">{p}</span>)}
-              </div>
-              <div className="about-stat-section-title">Mes engagements</div>
-              <div className="about-stat-grid">
-                {STATS.map(({ num, label }) => (
-                  <div key={label} className="about-stat">
-                    <div className="about-stat-num">{num}</div>
-                    <div className="about-stat-label">{label}</div>
-                  </div>
-                ))}
-              </div>
-            </div>
+          <Reveal delay={160} from="right" threshold={0.8}>
+            <figure className="about-photo-wrap">
+              <img
+                src="/images/about/profile.png"
+                alt="Sean Roennau-Wergen"
+                className="about-photo"
+              />
+              <figcaption className="about-photo-caption">
+                <span className="about-photo-caption__name">Sean Roennau-Wergen</span>
+                <span className="about-photo-caption__role">Développeur Web Freelance · Puteaux</span>
+              </figcaption>
+            </figure>
           </Reveal>
 
         </div>

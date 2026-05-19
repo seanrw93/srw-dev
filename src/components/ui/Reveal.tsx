@@ -5,9 +5,10 @@ interface RevealProps {
   delay?: number
   className?: string
   threshold?: number
+  from?: 'right'
 }
 
-export default function Reveal({ children, delay = 0, className = '', threshold = 0.08 }: RevealProps) {
+export default function Reveal({ children, delay = 0, className = '', threshold = 0.08, from }: RevealProps) {
   const ref = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
@@ -26,8 +27,10 @@ export default function Reveal({ children, delay = 0, className = '', threshold 
     return () => observer.disconnect()
   }, [delay])
 
+  const variantClass = from ? `reveal--${from}` : ''
+
   return (
-    <div ref={ref} className={`reveal ${className}`}>
+    <div ref={ref} className={`reveal ${variantClass} ${className}`.trim()}>
       {children}
     </div>
   )

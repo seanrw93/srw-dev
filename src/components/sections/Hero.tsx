@@ -36,18 +36,31 @@ export default function Hero() {
           </Reveal>
         </div>
 
-        <div className="hero-grid" aria-hidden="true">
+        <div className="hero-grid">
+          {/* Desktop: col 1 (up). Mobile: row 1 — images 0,1,2 scroll in from right */}
           <div className="hero-grid-col hero-grid-col--up">
             <div className="hero-grid-item"><img src={GRID_IMAGES[0]} alt="" loading="eager" /></div>
-            <div className="hero-grid-item"><img src={GRID_IMAGES[3]} alt="" loading="eager" /></div>
+            <div className="hero-grid-item hero-grid-item--mobile-only"><img src={GRID_IMAGES[1]} alt="" loading="eager" /></div>
+            <div className="hero-grid-item hero-grid-item--mobile-only"><img src={GRID_IMAGES[2]} alt="" loading="eager" /></div>
+            <div className="hero-grid-item hero-grid-item--desktop-only"><img src={GRID_IMAGES[3]} alt="" loading="eager" /></div>
           </div>
+          {/* Desktop: col 2 (down). Mobile: row 2 — images 3,4,5 scroll in from left */}
           <div className="hero-grid-col hero-grid-col--down">
-            <div className="hero-grid-item"><img src={GRID_IMAGES[1]} alt="" loading="eager" /></div>
-            <div className="hero-grid-item"><img src={GRID_IMAGES[4]} alt="" loading="eager" /></div>
+            <div className="hero-grid-item hero-grid-item--desktop-only"><img src={GRID_IMAGES[1]} alt="" loading="eager" /></div>
+            <div className="hero-grid-item hero-grid-item--mobile-only"><img src={GRID_IMAGES[3]} alt="" loading="eager" /></div>
+            <div className="hero-grid-item hero-grid-item--mobile-only"><img src={GRID_IMAGES[4]} alt="" loading="eager" /></div>
+            <div className="hero-grid-item hero-grid-item--mobile-only"><img src={GRID_IMAGES[5]} alt="" loading="eager" /></div>
+            <div className="hero-grid-item hero-grid-item--desktop-only"><img src={GRID_IMAGES[4]} alt="" loading="eager" /></div>
           </div>
+          {/* Desktop only: col 3 (up) */}
           <div className="hero-grid-col hero-grid-col--up">
             <div className="hero-grid-item"><img src={GRID_IMAGES[2]} alt="" loading="eager" /></div>
             <div className="hero-grid-item"><img src={GRID_IMAGES[5]} alt="" loading="eager" /></div>
+          </div>
+          <div className="hero-ctas hero-ctas--mobile">
+            <a href="#contact" className="btn btn-primary">
+              Travailler avec moi
+            </a>
           </div>
         </div>
       </div>

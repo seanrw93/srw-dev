@@ -5,7 +5,7 @@
   display: grid;
   grid-template-columns: 1fr auto;
   gap: 80px;
-  align-items: center;
+  align-items: end;
 }
 .about-values { display: flex; flex-direction: column; margin-top: 32px; }
 .value-item {
@@ -114,3 +114,50 @@
   margin-bottom: 5px;
 }
 .about-stat-label { font-size: 0.66rem; color: var(--light-body); line-height: 1.45; }
+
+.about-card-image {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+/* ── Profile photo ── */
+.about-photo-wrap {
+  background-color: #F2F0ED ;
+  border-radius: 16px;
+  padding: 1rem;
+  width: 100%;
+  max-width: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-end;
+}
+.about-photo {
+  width: 100%;
+  max-width: 340px;
+  height: auto;
+  display: block;
+  border-radius: 14px;
+  border: 1.5px solid var(--card-border);
+}
+.about-photo-caption {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  margin-top: 12px;
+  padding-left: 4px;
+  text-align: center;
+}
+.about-photo-caption__name {
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: var(--light-text);
+}
+.about-photo-caption__role {
+  font-size: 0.75rem;
+  color: var(--light-muted);
+}

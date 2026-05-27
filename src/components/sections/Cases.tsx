@@ -16,13 +16,17 @@ const CASES: CaseCardProps[] = [
     tech: ['JavaScript', 'Express', 'Stripe'],
   },
   {
-    tag: 'Performance',
-    title: "Optimisation performance d'une PME",
-    desc: "Audit complet, compression d'images, lazy loading, suppression des scripts inutiles. Le site est passé de 6s à 1.8s de chargement.",
+    tag: 'Boutique en ligne',
+    title: 're:wear — mode de seconde main',
+    desc: "Conception et développement d'une boutique e-commerce dédiée à la mode de seconde main haut de gamme. Expérience utilisateur optimisée, catalogue produits, gestion des commandes, paiement sécurisé et administration simplifiée pour les vendeurs.",
     metrics: [
-      { val: '6s → 1.8s', label: 'Temps de chargement' },
-      { val: '+25pts', label: 'Score Google' },
+      { val: '0.8s', label: 'Première image visible' },
+      { val: '100/100', label: 'Score SEO Google' },
     ],
+    image: '/images/cases/rewear.png',
+    imageAlt: 'Capture d’écran de la boutique en ligne re:wear',
+    url: '#',
+    tech: ['WordPress', 'WooCommerce'],
   },
   {
     tag: 'Refonte',

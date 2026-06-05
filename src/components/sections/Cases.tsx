@@ -29,13 +29,17 @@ const CASES: CaseCardProps[] = [
     tech: ['WordPress', 'WooCommerce'],
   },
   {
-    tag: 'Refonte',
-    title: "Refonte complète d'un site vieillissant",
-    desc: "Modernisation d'un site obsolète, design sur-mesure, contenu revu pour convertir. Résultat visible dès la mise en ligne.",
+    tag: 'Site vitrine',
+    title: 'Urban Move Studio — École de danse',
+    desc: "Création d'un site vitrine pour une école de hip-hop et urban dance à Puteaux. Design sombre et dynamique, galerie photos, présentation des cours et formulaire d'inscription.",
     metrics: [
-      { val: '−60%', label: 'Taux de rebond' },
-      { val: '×2', label: 'Demandes de contact' },
+      { val: '4 jours', label: 'Délai de livraison' },
+      { val: '100/100', label: 'Score mobile Lighthouse' },
     ],
+    image: '/images/cases/sofia-marchand.png',
+    imageAlt: "Capture d'écran du site Urban Move Studio",
+    url: 'https://urban-move-studio.vercel.app/',
+    tech: ['React', 'Jotform'],
   },
 ]
 

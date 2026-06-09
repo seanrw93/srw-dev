@@ -6,9 +6,9 @@ export default function BoutiqueEnLigne() {
   return (
     <section className="section section--dark">
       <Helmet>
-        <title>Vendre en Ligne — Boutique Web pour Petite Entreprise | srwdev</title>
+        <title>Vendre en Ligne - Boutique Web pour Petite Entreprise | srwdev</title>
         <meta name="description" content="Vous voulez vendre vos produits en ligne ? Je crée votre boutique web facile à gérer, avec paiement sécurisé et un tunnel d'achat optimisé pour convertir vos visiteurs en clients." />
-        <meta property="og:title" content="srw-dev — Votre Boutique en Ligne, Simple à Gérer" />
+        <meta property="og:title" content="srw-dev - Votre Boutique en Ligne, Simple à Gérer" />
         <meta property="og:description" content="Vous voulez vendre vos produits en ligne ? Je crée votre boutique web facile à gérer, avec paiement sécurisé et un tunnel d'achat optimisé pour convertir vos visiteurs en clients." />
         <link rel="canonical" href="https://srwdev.fr/services/boutique-en-ligne" />
       </Helmet>
@@ -25,7 +25,7 @@ export default function BoutiqueEnLigne() {
                 Chaque boutique est conçue en tenant compte de votre catalogue, de vos modes de livraison, et de votre clientèle cible. Je m'occupe de l'intégration des paiements, de la gestion des stocks, et des pages produits, pour que vous puissiez vous concentrer sur votre business sans toucher une ligne de code.
               </p>
               <p className="about-body">
-                La performance est au coeur de chaque boutique que je livre. Un site e-commerce lent perd des clients à chaque seconde de chargement. J'optimise les images, le code, et l'architecture pour garantir une expérience d'achat fluide sur mobile comme sur desktop, dès le premier jour.
+                La performance est au cœur de chaque boutique que je livre. Un site e-commerce lent perd des clients à chaque seconde de chargement. J'optimise les images, le code et l'architecture pour garantir une expérience d'achat fluide sur mobile comme sur ordinateur, dès le premier jour.
               </p>
             </div>
           </Reveal>

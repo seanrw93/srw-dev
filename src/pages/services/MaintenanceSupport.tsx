@@ -6,9 +6,9 @@ export default function MaintenanceSupport() {
     <section className="section section--dark">
       <Helmet>
         <title>Suivi & Mise à Jour de Site Web après Livraison | srwdev</title>
-        <meta name="description" content="Votre site web évolue avec votre entreprise. Je m'occupe des mises à jour, des modifications de contenu et du support technique — disponible sous 24h, sans contrat long terme." />
-        <meta property="og:title" content="srw-dev — Suivi de Site Web pour que votre Présence Reste à Jour" />
-        <meta property="og:description" content="Votre site web évolue avec votre entreprise. Je m'occupe des mises à jour, des modifications de contenu et du support technique — disponible sous 24h, sans contrat long terme." />
+        <meta name="description" content="Votre site web évolue avec votre entreprise. Je m'occupe des mises à jour, des modifications de contenu et du support technique. Disponible sous 24h, sans contrat long terme." />
+        <meta property="og:title" content="srw-dev - Suivi de Site Web pour que votre Présence Reste à Jour" />
+        <meta property="og:description" content="Votre site web évolue avec votre entreprise. Je m'occupe des mises à jour, des modifications de contenu et du support technique. Disponible sous 24h, sans contrat long terme." />
         <link rel="canonical" href="https://srwdev.fr/services/maintenance-support" />
       </Helmet>
       <div className="section-inner">
@@ -24,7 +24,7 @@ export default function MaintenanceSupport() {
                 Les interventions courantes incluent les mises à jour de contenu, l'ajout de nouvelles pages ou fonctionnalités, la correction de bugs, et la surveillance des performances. Vous avez un interlocuteur direct, pas un système de tickets anonyme. Je réponds dans les 24 heures et je vous tiens informé à chaque étape.
               </p>
               <p className="about-body">
-                Que votre site soit un projet que j'ai développé ou un projet existant repris en maintenance, je m'adapte à votre contexte. Pas de contrat long terme imposé, pas de frais cachés. Vous payez pour ce dont vous avez besoin, quand vous en avez besoin.
+                Que votre site soit un projet que j'ai développé ou un projet existant repris en maintenance, je m'adapte à votre contexte. Aucun contrat long terme, aucun frais caché. Vous payez pour ce dont vous avez besoin, quand vous en avez besoin.
               </p>
             </div>
           </Reveal>

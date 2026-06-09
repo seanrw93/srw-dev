@@ -90,7 +90,7 @@ export default function Navbar() {
           </ul>
 
           <div className="nav-actions">
-            <span className="nav-badge">● Disponible pour missions</span>
+            <span className="nav-badge">Disponible pour missions</span>
             <a href={anchorHref('#contact')} className="btn btn-primary">
               Travailler avec moi
             </a>

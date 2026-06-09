@@ -4,7 +4,7 @@ import Reveal from '../ui/Reveal'
 const CASES: CaseCardProps[] = [
   {
     tag: 'Boutique en ligne',
-    title: 'Spiral Sounds — Disquaire en ligne',
+    title: 'Spiral Sounds - Disquaire en ligne',
     desc: "Création d'une boutique e-commerce complète pour un disquaire spécialisé vinyle. Catalogue produits, panier, paiement sécurisé et interface d'administration sur mesure.",
     metrics: [
       { val: '0.8s', label: 'Première image visible' },
@@ -17,7 +17,7 @@ const CASES: CaseCardProps[] = [
   },
   {
     tag: 'Boutique en ligne',
-    title: 're:wear — mode de seconde main',
+    title: 're:wear - mode de seconde main',
     desc: "Conception et développement d'une boutique e-commerce dédiée à la mode de seconde main haut de gamme. Expérience utilisateur optimisée, catalogue produits, gestion des commandes, paiement sécurisé et administration simplifiée pour les vendeurs.",
     metrics: [
       { val: '0.8s', label: 'Première image visible' },
@@ -30,7 +30,7 @@ const CASES: CaseCardProps[] = [
   },
   {
     tag: 'Site vitrine',
-    title: 'Urban Move Studio — École de danse',
+    title: 'Urban Move Studio - École de danse',
     desc: "Création d'un site vitrine pour une école de hip-hop et urban dance à Puteaux. Design sombre et dynamique, galerie photos, présentation des cours et formulaire d'inscription.",
     metrics: [
       { val: '4 jours', label: 'Délai de livraison' },

@@ -51,12 +51,24 @@
 .nav-links a:hover { color: var(--dark-text); }
 
 .nav-badge {
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
   font-size: 0.68rem;
   font-weight: 500;
   color: var(--accent);
   letter-spacing: 0.08em;
   text-transform: uppercase;
   opacity: .75;
+}
+.nav-badge::before {
+  content: '';
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #22c55e;
+  flex-shrink: 0;
 }
 
 .nav-actions { display: flex; align-items: center; gap: 16px; }

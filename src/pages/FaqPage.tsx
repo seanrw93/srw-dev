@@ -12,7 +12,7 @@ const FAQ = [
   },
   {
     question: 'Combien de temps faut-il pour créer un site web ?',
-    answer: 'Un site vitrine est livré en 7 à 14 jours selon sa complexité. Une boutique en ligne demande généralement 2 à 3 semaines. Je vous donne une date de livraison précise dès le devis, et je la respecte.',
+    answer: 'Un site vitrine est livré en 2 à 3 semaines selon sa complexité. Une boutique en ligne demande généralement 3 à 4 semaines. Je vous donne une date de livraison précise dès le devis, et je la respecte. Les délais sont calculés sur la base d\'une validation rapide des contenus et retours de votre côté.',
   },
   {
     question: 'Site vitrine ou boutique en ligne, comment choisir ?',
@@ -48,9 +48,9 @@ export default function FaqPage() {
   return (
     <section className="section section--dark">
       <Helmet>
-        <title>Questions Fréquentes — Création de Site Web pour Petites Entreprises | srwdev</title>
+        <title>Questions Fréquentes - Création de Site Web pour Petites Entreprises | srwdev</title>
         <meta name="description" content="Combien ça coûte ? Combien de temps ? Est-ce que je peux modifier mon site moi-même ? Toutes les réponses aux questions que se posent les petites entreprises avant de se lancer." />
-        <meta property="og:title" content="srw-dev — Vos Questions sur la Création de Site Web" />
+        <meta property="og:title" content="srw-dev - Vos Questions sur la Création de Site Web" />
         <meta property="og:description" content="Combien ça coûte ? Combien de temps ? Est-ce que je peux modifier mon site moi-même ? Toutes les réponses aux questions que se posent les petites entreprises avant de se lancer." />
         <link rel="canonical" href="https://srwdev.fr/faq" />
       </Helmet>

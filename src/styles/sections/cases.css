@@ -29,6 +29,7 @@
   display: block;
   position: relative;
   aspect-ratio: 1 / 1;
+  width: 100%;
   border-radius: 8px;
   overflow: hidden;
   text-decoration: none;

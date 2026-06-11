@@ -8,8 +8,8 @@ interface Platform {
 }
 
 const PLATFORMS: Platform[] = [
-  { name: 'Shopify',     logo: '/images/tech/shopify.svg',     benefit: 'La solution clé en main, idéale pour démarrer vite et vendre partout.' },
-  { name: 'PrestaShop',  logo: '/images/tech/prestashop.svg',  benefit: 'Open source et flexible, parfaite pour des catalogues complexes.', badge: true },
+  { name: 'PrestaShop',  logo: '/images/tech/prestashop.svg',  benefit: 'Open source et flexible, parfaite pour des catalogues complexes.'},
+  { name: 'Shopify',     logo: '/images/tech/shopify.svg',     benefit: 'La solution clé en main, idéale pour démarrer vite et vendre partout.', badge: true },
   { name: 'WooCommerce', logo: '/images/tech/woocommerce.svg', benefit: 'Intégré à WordPress, pour gérer boutique et contenu au même endroit.' },
 ]
 

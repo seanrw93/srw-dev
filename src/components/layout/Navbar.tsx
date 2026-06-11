@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
+import Logo from '../ui/Logo'
 
 const SERVICE_LINKS = [
   { to: '/services/creation-site-web', label: 'Création de sites web' },
@@ -56,7 +57,7 @@ export default function Navbar() {
       <nav className="nav" aria-label="Navigation principale">
         <div className="nav-inner">
           <Link to="/" className="nav-logo">
-            <span>srw</span>dev
+            <Logo />
           </Link>
 
           <ul className="nav-links">

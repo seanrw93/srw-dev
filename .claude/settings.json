@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/Sean/Downloads/**)"
+    ],
+    "additionalDirectories": [
+      "C:\\Users\\Sean\\Downloads\\favicon_extracted"
+    ]
+  }
+}

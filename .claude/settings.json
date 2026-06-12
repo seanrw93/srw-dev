@@ -1,10 +1,12 @@
 {
   "permissions": {
     "allow": [
-      "Read(//c/Users/Sean/Downloads/**)"
+      "Read(//c/Users/Sean/Downloads/**)",
+      "Bash(node scripts/compress-hero.mjs)"
     ],
     "additionalDirectories": [
-      "C:\\Users\\Sean\\Downloads\\favicon_extracted"
+      "C:\\Users\\Sean\\Downloads\\favicon_extracted",
+      "C:\\Users\\Sean\\srw-dev\\public\\images\\banner-compressed"
     ]
   }
 }

@@ -1,5 +1,4 @@
-﻿import Reveal from '../ui/Reveal'
-
+﻿
 const GRID_IMAGES = [
   '/images/banner/pexels-anete-lusina-6331237.webp',
   '/images/banner/pexels-arina-krasnikova-5951328.webp',
@@ -17,29 +16,27 @@ export default function Hero() {
       <div className="hero-orb hero-orb--3" aria-hidden="true" />
       <div className="hero-layout">
         <div className="hero">
-          <Reveal>
-            <span className="hero-eyebrow">
-              Disponible pour missions · Île-de-France & Remote
-            </span>
-            <h1>
-              Votre présence en ligne,<br />
-              <em>sans complications.</em>
-            </h1>
-            <p className="hero-subtitle">
-              Sites vitrines et boutiques en ligne pour petites entreprises. Rapide, professionnel, facile à gérer.
-            </p>
-            <div className="hero-ctas">
-              <a href="#contact" className="btn btn-primary">
-                Travailler avec moi
-              </a>
-            </div>
-          </Reveal>
+          <span className="hero-eyebrow">
+            Disponible pour missions · Île-de-France & Remote
+          </span>
+          <h1>
+            Votre présence en ligne,<br />
+            <em>sans complications.</em>
+          </h1>
+          <p className="hero-subtitle">
+            Sites vitrines et boutiques en ligne pour petites entreprises. Rapide, professionnel, facile à gérer.
+          </p>
+          <div className="hero-ctas">
+            <a href="#contact" className="btn btn-primary">
+              Travailler avec moi
+            </a>
+          </div>
         </div>
 
         <div className="hero-grid">
           {/* Desktop: col 1 (up). Mobile: row 1 — images 0,1,2 scroll in from right */}
           <div className="hero-grid-col hero-grid-col--up">
-            <div className="hero-grid-item"><img src={GRID_IMAGES[0]} alt="" loading="eager" /></div>
+            <div className="hero-grid-item"><img src={GRID_IMAGES[0]} alt="" loading="eager" fetchPriority="high" /></div>
             <div className="hero-grid-item hero-grid-item--mobile-only"><img src={GRID_IMAGES[1]} alt="" loading="eager" /></div>
             <div className="hero-grid-item hero-grid-item--mobile-only"><img src={GRID_IMAGES[2]} alt="" loading="eager" /></div>
             <div className="hero-grid-item hero-grid-item--desktop-only"><img src={GRID_IMAGES[3]} alt="" loading="eager" /></div>

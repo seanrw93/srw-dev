@@ -84,6 +84,7 @@
 .legal-table td { color: var(--light-body); }
 
 .legal-identity {
+  max-width: 760px;
   background: var(--card-bg);
   border: 1px solid var(--card-border);
   border-radius: var(--radius);

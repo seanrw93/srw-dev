@@ -4,9 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- ── Primary meta ── -->
-    <title>Création de Sites Web pour Petites Entreprises | srw:dev - Puteaux, Paris</title>
-    <meta name="description" content="Vous avez besoin d'un site web professionnel pour votre petite entreprise ? Je crée des sites rapides, modernes et faciles à gérer, vitrine ou boutique en ligne. Basé à Puteaux, disponible partout en France." />
+    <!-- Title, description, canonical, og:title/description are injected per page:
+         by prerender.mjs (via Helmet) in the static build, and at runtime by
+         react-helmet-async on the client. See src/pages/*.tsx for each page's tags. -->
+    <!--ssr-head-->
+
     <meta name="author" content="Sean Roennau-Wergen" />
     <meta name="keywords" content="création site web petite entreprise, site vitrine professionnel, boutique en ligne, site web artisan, site web commerçant, freelance web Puteaux, création site web Paris, site web pas cher petite entreprise" />
     <meta name="robots" content="index, follow" />
@@ -16,7 +18,6 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <link rel="manifest" href="/site.webmanifest" />
-    <link rel="canonical" href="https://srwdev.fr/" />
 
     <!-- ── Local SEO ── -->
     <meta name="geo.region" content="FR-IDF" />
@@ -29,13 +30,9 @@
     <meta property="og:url" content="https://srwdev.fr/" />
     <meta property="og:site_name" content="srw:dev" />
     <meta property="og:locale" content="fr_FR" />
-    <meta property="og:title" content="srw:dev - Création de Sites Web pour Petites Entreprises" />
-    <meta property="og:description" content="Site vitrine ou boutique en ligne : je crée votre présence web professionnelle, rapide et facile à gérer. Basé à Puteaux, disponible partout en France." />
 
     <!-- ── Twitter Card ── -->
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="srw-dev - Création de Sites Web pour Petites Entreprises" />
-    <meta name="twitter:description" content="Site vitrine ou boutique en ligne : je crée votre présence web professionnelle, rapide et facile à gérer. Basé à Puteaux, disponible partout en France." />
 
     <!-- ── Fonts (non-blocking) ── -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />

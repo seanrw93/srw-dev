@@ -1,7 +1,6 @@
 import { FormEvent, useRef, useState } from 'react'
 import { HiOutlineMail } from 'react-icons/hi'
 import { FiLinkedin, FiGithub } from 'react-icons/fi'
-import { BsCalendar2Check } from 'react-icons/bs'
 import Reveal from '../ui/Reveal'
 
 const CONTACT_LINKS = [
@@ -13,17 +12,12 @@ const CONTACT_LINKS = [
   {
     icon: <FiLinkedin />,
     label: 'LinkedIn',
-    href: 'https://linkedin.com/in/YOUR_PROFILE',
+    href: 'https://www.linkedin.com/in/sean-roennau-wergen/',
   },
   {
     icon: <FiGithub />,
     label: 'GitHub',
-    href: 'https://github.com/YOUR_USERNAME',
-  },
-  {
-    icon: <BsCalendar2Check />,
-    label: 'Réserver un appel sur Calendly',
-    href: 'https://calendly.com/YOUR_USERNAME',
+    href: 'https://github.com/seanrw93',
   },
 ]
 

@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { FiLinkedin, FiGithub } from 'react-icons/fi'
 
 export default function Footer() {
   return (
@@ -11,9 +12,8 @@ export default function Footer() {
           <div className="footer-copy">© {new Date().getFullYear()} Sean Roennau-Wergen</div>
         </address>
         <div className="footer-links">
-          <a href="https://linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
-          <a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
-          <a href="https://calendly.com" target="_blank" rel="noreferrer">Calendly</a>
+          <a href="https://www.linkedin.com/in/sean-roennau-wergen/" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="footer-icon"><FiLinkedin /></a>
+          <a href="https://github.com/seanrw93" target="_blank" rel="noreferrer" aria-label="GitHub" className="footer-icon"><FiGithub /></a>
           <Link to="/mentions-legales">Mentions légales</Link>
           <Link to="/politique-de-confidentialite">Politique de confidentialité</Link>
         </div>

@@ -82,7 +82,7 @@ export default function MentionsLegales() {
           <div className="legal-block">
             <h2>Liens hypertextes</h2>
             <p>
-              Ce site peut contenir des liens vers des sites tiers (LinkedIn, GitHub, Calendly, etc.). L'éditeur n'exerce aucun contrôle sur ces sites et décline toute responsabilité quant à leur contenu ou à leurs pratiques en matière de données personnelles.
+              Ce site peut contenir des liens vers des sites tiers (LinkedIn, GitHub, etc.). L'éditeur n'exerce aucun contrôle sur ces sites et décline toute responsabilité quant à leur contenu ou à leurs pratiques en matière de données personnelles.
             </p>
           </div>
 

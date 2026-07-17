@@ -9,6 +9,8 @@ import ScrollToTop from './components/ui/ScrollToTop'
 import HomePage from './pages/HomePage'
 import NotFound from './pages/NotFound'
 import FaqPage from './pages/FaqPage'
+import MentionsLegales from './pages/MentionsLegales'
+import PolitiqueConfidentialite from './pages/PolitiqueConfidentialite'
 import CreationWeb from './pages/services/CreationWeb'
 import BoutiqueEnLigne from './pages/services/BoutiqueEnLigne'
 import PerformanceVitesse from './pages/services/PerformanceVitesse'
@@ -33,6 +35,8 @@ function AppSSR() {
         <Route path="/faq" element={<ServicePage />}>
           <Route index element={<FaqPage />} />
         </Route>
+        <Route path="/mentions-legales" element={<MentionsLegales />} />
+        <Route path="/politique-de-confidentialite" element={<PolitiqueConfidentialite />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />

@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 export default function Footer() {
   return (
     <footer className="footer">
@@ -12,8 +14,8 @@ export default function Footer() {
           <a href="https://linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
           <a href="https://github.com" target="_blank" rel="noreferrer">GitHub</a>
           <a href="https://calendly.com" target="_blank" rel="noreferrer">Calendly</a>
-          <a href="#">Mentions légales</a>
-          <a href="#">Politique de confidentialité</a>
+          <Link to="/mentions-legales">Mentions légales</Link>
+          <Link to="/politique-de-confidentialite">Politique de confidentialité</Link>
         </div>
       </div>
     </footer>

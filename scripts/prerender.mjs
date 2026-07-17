@@ -14,6 +14,8 @@ const routes = [
   '/services/seo-technique',
   '/services/maintenance-support',
   '/faq',
+  '/mentions-legales',
+  '/politique-de-confidentialite',
 ]
 
 const template = fs.readFileSync(templatePath, 'utf-8')

@@ -27,6 +27,7 @@
 @import './sections/about.css';
 @import './sections/cases.css';
 @import './sections/contact.css';
+@import './sections/legal.css';
 
 /* Responsive overrides always last */
 @import './responsive.css';

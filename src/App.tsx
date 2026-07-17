@@ -1,5 +1,6 @@
 import { lazy, Suspense } from 'react'
 import { Routes, Route } from 'react-router-dom'
+import { Analytics } from '@vercel/analytics/react'
 import Navbar from './components/layout/Navbar'
 import Footer from './components/layout/Footer'
 import ServicePage from './components/layout/ServicePage'
@@ -13,6 +14,8 @@ const PerformanceVitesse = lazy(() => import('./pages/services/PerformanceVitess
 const SeoTechnique = lazy(() => import('./pages/services/SeoTechnique'))
 const MaintenanceSupport = lazy(() => import('./pages/services/MaintenanceSupport'))
 const FaqPage = lazy(() => import('./pages/FaqPage'))
+const MentionsLegales = lazy(() => import('./pages/MentionsLegales'))
+const PolitiqueConfidentialite = lazy(() => import('./pages/PolitiqueConfidentialite'))
 
 const fallback = <div style={{ height: '100vh', background: '#0e0c0a' }} />
 
@@ -34,10 +37,13 @@ export default function App() {
           <Route path="/faq" element={<ServicePage />}>
             <Route index element={<FaqPage />} />
           </Route>
+          <Route path="/mentions-legales" element={<MentionsLegales />} />
+          <Route path="/politique-de-confidentialite" element={<PolitiqueConfidentialite />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Suspense>
       <Footer />
+      <Analytics />
     </>
   )
 }

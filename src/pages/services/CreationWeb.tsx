@@ -6,9 +6,9 @@ export default function CreationWeb() {
   return (
     <section className="section section--dark">
       <Helmet>
-        <title>Création de Site Web pour Petite Entreprise - Vitrine Professionnelle | srwdev</title>
+        <title>Création de Site Web pour Petite Entreprise - Vitrine Professionnelle | srw:dev</title>
         <meta name="description" content="Je crée votre site vitrine professionnel, rapide et facile à gérer. Idéal pour artisans, commerçants et petites entreprises qui veulent être visibles en ligne. Devis gratuit sous 24h." />
-        <meta property="og:title" content="srw-dev - Votre Site Vitrine Professionnel, Clé en Main" />
+        <meta property="og:title" content="srw:dev - Votre Site Vitrine Professionnel, Clé en Main" />
         <meta property="og:description" content="Je crée votre site vitrine professionnel, rapide et facile à gérer. Idéal pour artisans, commerçants et petites entreprises qui veulent être visibles en ligne. Devis gratuit sous 24h." />
         <link rel="canonical" href="https://srwdev.fr/services/creation-web" />
       </Helmet>

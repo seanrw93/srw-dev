@@ -5,9 +5,9 @@ export default function PerformanceVitesse() {
   return (
     <section className="section section--dark">
       <Helmet>
-        <title>Site Web Rapide & Visible sur Google | srwdev</title>
+        <title>Site Web Rapide & Visible sur Google | srw:dev</title>
         <meta name="description" content="Un site lent fait fuir vos clients et nuit à votre position sur Google. J'optimise la vitesse de votre site pour que vous soyez mieux référencé et que vos visiteurs restent. Résultats mesurables." />
-        <meta property="og:title" content="srw-dev - Site Web Rapide & Visible sur Google" />
+        <meta property="og:title" content="srw:dev - Site Web Rapide & Visible sur Google" />
         <meta property="og:description" content="Un site lent fait fuir vos clients et nuit à votre position sur Google. J'optimise la vitesse de votre site pour que vous soyez mieux référencé et que vos visiteurs restent. Résultats mesurables." />
         <link rel="canonical" href="https://srwdev.fr/services/performance-vitesse" />
       </Helmet>

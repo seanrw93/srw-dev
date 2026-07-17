@@ -5,7 +5,7 @@ export default function PolitiqueConfidentialite() {
   return (
     <section className="section section--dark">
       <Helmet>
-        <title>Politique de confidentialité | srwdev</title>
+        <title>Politique de confidentialité | srw:dev</title>
         <meta name="description" content="Politique de confidentialité du site srwdev.fr — données collectées, finalités, durée de conservation et droits RGPD." />
         <link rel="canonical" href="https://srwdev.fr/politique-de-confidentialite" />
       </Helmet>
@@ -18,7 +18,7 @@ export default function PolitiqueConfidentialite() {
           <div className="legal-block">
             <h2>Responsable du traitement</h2>
             <p>
-              Sean Roennau-Wergen, entrepreneur individuel exerçant sous le nom commercial srw-dev (SIRET 993 006 964 00015), 92800 Puteaux, est responsable du traitement des données personnelles collectées sur ce site. Voir les <Link to="/mentions-legales">mentions légales</Link> pour les coordonnées complètes.
+              Sean Roennau-Wergen, entrepreneur individuel exerçant sous le nom commercial srw:dev (SIRET 993 006 964 00015), 92800 Puteaux, est responsable du traitement des données personnelles collectées sur ce site. Voir les <Link to="/mentions-legales">mentions légales</Link> pour les coordonnées complètes.
             </p>
           </div>
 

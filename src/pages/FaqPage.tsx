@@ -48,9 +48,9 @@ export default function FaqPage() {
   return (
     <section className="section section--dark">
       <Helmet>
-        <title>Questions Fréquentes - Création de Site Web pour Petites Entreprises | srwdev</title>
+        <title>Questions Fréquentes - Création de Site Web pour Petites Entreprises | srw:dev</title>
         <meta name="description" content="Combien ça coûte ? Combien de temps ? Est-ce que je peux modifier mon site moi-même ? Toutes les réponses aux questions que se posent les petites entreprises avant de se lancer." />
-        <meta property="og:title" content="srw-dev - Vos Questions sur la Création de Site Web" />
+        <meta property="og:title" content="srw:dev - Vos Questions sur la Création de Site Web" />
         <meta property="og:description" content="Combien ça coûte ? Combien de temps ? Est-ce que je peux modifier mon site moi-même ? Toutes les réponses aux questions que se posent les petites entreprises avant de se lancer." />
         <link rel="canonical" href="https://srwdev.fr/faq" />
       </Helmet>

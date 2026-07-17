@@ -6,9 +6,9 @@ export default function BoutiqueEnLigne() {
   return (
     <section className="section section--dark">
       <Helmet>
-        <title>Vendre en Ligne - Boutique Web pour Petite Entreprise | srwdev</title>
+        <title>Vendre en Ligne - Boutique Web pour Petite Entreprise | srw:dev</title>
         <meta name="description" content="Vous voulez vendre vos produits en ligne ? Je crée votre boutique web facile à gérer, avec paiement sécurisé et un tunnel d'achat optimisé pour convertir vos visiteurs en clients." />
-        <meta property="og:title" content="srw-dev - Votre Boutique en Ligne, Simple à Gérer" />
+        <meta property="og:title" content="srw:dev - Votre Boutique en Ligne, Simple à Gérer" />
         <meta property="og:description" content="Vous voulez vendre vos produits en ligne ? Je crée votre boutique web facile à gérer, avec paiement sécurisé et un tunnel d'achat optimisé pour convertir vos visiteurs en clients." />
         <link rel="canonical" href="https://srwdev.fr/services/boutique-en-ligne" />
       </Helmet>

@@ -5,7 +5,7 @@ export default function NotFound() {
   return (
     <main style={{ minHeight: '80vh', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', gap: '24px', padding: '0 5%' }}>
       <Helmet>
-        <title>Page introuvable | srwdev</title>
+        <title>Page introuvable | srw:dev</title>
         <meta name="description" content="Cette page n'existe pas ou a été déplacée." />
         <meta name="robots" content="noindex" />
       </Helmet>

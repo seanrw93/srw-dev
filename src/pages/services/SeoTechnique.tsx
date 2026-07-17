@@ -5,9 +5,9 @@ export default function SeoTechnique() {
   return (
     <section className="section section--dark">
       <Helmet>
-        <title>Être Trouvé sur Google - Référencement pour Petites Entreprises | srwdev</title>
+        <title>Être Trouvé sur Google - Référencement pour Petites Entreprises | srw:dev</title>
         <meta name="description" content="Vos clients vous cherchent sur Google mais ne vous trouvent pas ? J'optimise votre site pour qu'il remonte dans les résultats et attire plus de clients. Sans jargon, avec des résultats concrets." />
-        <meta property="og:title" content="srw-dev - Être Trouvé sur Google par vos Clients" />
+        <meta property="og:title" content="srw:dev - Être Trouvé sur Google par vos Clients" />
         <meta property="og:description" content="Vos clients vous cherchent sur Google mais ne vous trouvent pas ? J'optimise votre site pour qu'il remonte dans les résultats et attire plus de clients. Sans jargon, avec des résultats concrets." />
         <link rel="canonical" href="https://srwdev.fr/services/seo-technique" />
       </Helmet>

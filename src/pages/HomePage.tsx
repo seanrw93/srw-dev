@@ -24,9 +24,9 @@ export default function HomePage() {
   return (
     <main>
       <Helmet>
-        <title>Création de Sites Web pour Petites Entreprises | srw-dev - Puteaux, Paris</title>
+        <title>Création de Sites Web pour Petites Entreprises | srw:dev - Puteaux, Paris</title>
         <meta name="description" content="Vous avez besoin d'un site web professionnel pour votre petite entreprise ? Je crée des sites rapides, modernes et faciles à gérer, vitrine ou boutique en ligne. Basé à Puteaux, disponible partout en France." />
-        <meta property="og:title" content="srw-dev - Création de Sites Web pour Petites Entreprises" />
+        <meta property="og:title" content="srw:dev - Création de Sites Web pour Petites Entreprises" />
         <meta property="og:description" content="Site vitrine ou boutique en ligne : je crée votre présence web professionnelle, rapide et facile à gérer. Basé à Puteaux, disponible partout en France." />
         <link rel="canonical" href="https://srwdev.fr/" />
       </Helmet>

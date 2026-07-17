@@ -5,7 +5,7 @@ export default function MentionsLegales() {
   return (
     <section className="section section--dark">
       <Helmet>
-        <title>Mentions légales | srwdev</title>
+        <title>Mentions légales | srw:dev</title>
         <meta name="description" content="Mentions légales du site srwdev.fr — éditeur, hébergeur et directeur de publication." />
         <link rel="canonical" href="https://srwdev.fr/mentions-legales" />
       </Helmet>
@@ -26,7 +26,7 @@ export default function MentionsLegales() {
                 <dd>Entrepreneur individuel (EI)</dd>
 
                 <dt>Nom commercial</dt>
-                <dd>srw-dev</dd>
+                <dd>srw:dev</dd>
 
                 <dt>SIRET</dt>
                 <dd>993 006 964 00015</dd>

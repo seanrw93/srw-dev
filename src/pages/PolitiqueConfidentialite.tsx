@@ -10,7 +10,6 @@ export default function PolitiqueConfidentialite() {
         <link rel="canonical" href="https://srwdev.fr/politique-de-confidentialite" />
       </Helmet>
       <div className="section-inner">
-        <span className="section-label">Vie privée</span>
         <h1 className="section-title">Politique de confidentialité</h1>
 
         <div className="legal-content">

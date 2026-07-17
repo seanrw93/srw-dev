@@ -10,7 +10,6 @@ export default function MentionsLegales() {
         <link rel="canonical" href="https://srwdev.fr/mentions-legales" />
       </Helmet>
       <div className="section-inner">
-        <span className="section-label">Informations légales</span>
         <h1 className="section-title">Mentions légales</h1>
 
         <div className="legal-content">
